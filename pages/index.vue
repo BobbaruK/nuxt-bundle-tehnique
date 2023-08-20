@@ -18,8 +18,6 @@ const { t } = useI18n({
     en: { test: "test123" },
   },
 });
-
-const user = useSupabaseUser();
 </script>
 
 <template>
@@ -27,8 +25,6 @@ const user = useSupabaseUser();
     <h1>Hello nuxt!</h1>
     <h2>Do you even bundle, bro?</h2>
     {{ t("test") }} <br />
-    {{ user.user_metadata.name }}
-    <img :src="user.user_metadata.avatar_url" alt="" width="100" height="100">
     <h3>entry.*.js</h3>
     <ol>
       <li>
@@ -39,7 +35,7 @@ const user = useSupabaseUser();
         nuxt i18n + 15 langs no content(exclude lang dir):
         <strong>215.02 kb</strong> - 99
       </li>
-      <li>nuxt supabase: <strong>322.17</strong> - </li>
+      <li>nuxt supabase: <strong>322.17</strong> -</li>
     </ol>
   </div>
 </template>

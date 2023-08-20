@@ -143,4 +143,7 @@ export default defineNuxtConfig({
     vueI18n: "./i18n.config.ts",
     experimental: { jsTsFormatResource: true }, // so i can use defineI18nLocale in lang folder
   },
+  supabase: {
+    redirect: false,
+  },
 });
