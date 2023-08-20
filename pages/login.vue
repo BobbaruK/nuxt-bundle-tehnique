@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// useCheckLang();
+// // useCheckLang();
 const switchLocalePath = useSwitchLocalePath();
 
 // definePageMeta({

@@ -149,4 +149,9 @@ export default defineNuxtConfig({
   image: {
     provider: "netlify",
   },
+  // vite: {
+  //   build: {
+  //     chunkSizeWarningLimit: 1000,
+  //   },
+  // },
 });

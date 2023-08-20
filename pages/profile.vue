@@ -3,7 +3,7 @@ definePageMeta({
   middleware: ["auth"],
 });
 
-// useCheckLang();
+// // useCheckLang();
 
 const user = useSupabaseUser();
 const supabase = useSupabaseClient();

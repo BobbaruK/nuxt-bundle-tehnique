@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useCheckLang();
+// useCheckLang();
 </script>
 <template>
   <section id="section1-cryptocurrencies" class="subHeader">

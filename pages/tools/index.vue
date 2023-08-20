@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useCheckLang();
+// useCheckLang();
 </script>
 <template>
   <div>ce plm e asta? tools?</div>

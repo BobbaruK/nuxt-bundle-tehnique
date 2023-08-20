@@ -58,7 +58,8 @@ const { x, y, sourceType } = useMouse();
       <li>nuxt supabase: <strong>328.62</strong> - 100</li>
       <li>vueuse: <strong>328.75</strong> - 100</li>
       <li>nuxt-img: <strong>328.78</strong> - 100</li>
-      <li>add pages + components + composables <strong>504.41</strong> - </li>
+      <li>add pages + components + composables <strong>504.41</strong> - 79 :))))</li>
+      <li>remove components + composables <strong>459.81</strong></li>
     </ol>
   </div>
 </template>
