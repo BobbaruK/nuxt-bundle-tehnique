@@ -20,4 +20,8 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: "page", mode: "out-in" },
   },
+  modules: ["@nuxtjs/i18n"],
+  i18n: {
+    /* module options */
+  },
 });
