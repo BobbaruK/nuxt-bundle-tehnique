@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: "page", mode: "out-in" },
   },
-  modules: ["@nuxtjs/i18n", "@nuxtjs/supabase", "@vueuse/nuxt"],
+  modules: ["@nuxtjs/i18n", "@nuxtjs/supabase", "@vueuse/nuxt", "@nuxt/image"],
   i18n: {
     // precompile: { strictMessage: false }, // allow html tag into the translations: XSS vulnerability
     locales: [

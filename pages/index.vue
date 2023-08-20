@@ -28,11 +28,24 @@ const { x, y, sourceType } = useMouse();
   <div>
     <h1>Hello nuxt!</h1>
     <h2>Do you even bundle, bro?</h2>
-    {{ t("test") }} <br /> <br />
-
-    {{ x }}px <br />
-    {{ y }}px <br />
-    {{ sourceType }}
+    <hr>
+    <div>
+      <h3>i18n</h3>
+      {{ t("test") }} <br />
+    </div>
+    <hr />
+    <div>
+      <h3>vue use</h3>
+      {{ x }}px <br />
+      {{ y }}px <br />
+      {{ sourceType }}
+    </div>
+    <hr>
+    <div>
+      <h3>nuxt-img</h3>
+      <nuxt-img src="/imgs/test.jpg" />
+    </div>
+    <hr>
     <h3>entry.*.js</h3>
     <ol>
       <li>
@@ -45,6 +58,7 @@ const { x, y, sourceType } = useMouse();
       </li>
       <li>nuxt supabase: <strong>328.62</strong> - 100</li>
       <li>vueuse: <strong>328.75</strong> - 100</li>
+      <li>nuxt-img: <strong>328.99</strong> - 100</li>
     </ol>
   </div>
 </template>
