@@ -42,7 +42,7 @@ const { x, y, sourceType } = useMouse();
     <hr />
     <div>
       <h3>nuxt-img</h3>
-      <nuxt-img src="/imgs/test.jpg" />
+      <nuxt-img src="/imgs/test.jpg" width="500" height="300" />
     </div>
     <hr />
     <h3>entry.*.js</h3>
@@ -60,7 +60,7 @@ const { x, y, sourceType } = useMouse();
       <li>nuxt-img: <strong>328.78</strong> - 100</li>
       <li>add pages + components + composables <strong>504.41</strong> - 79 :((((</li>
       <li>remove components + composables <strong>459.81</strong> - 87 :((((</li>
-      <li>remove pages <strong>329.41</strong> - </li>
+      <li>remove pages <strong>329.41</strong> - 95?</li>
     </ol>
   </div>
 </template>
