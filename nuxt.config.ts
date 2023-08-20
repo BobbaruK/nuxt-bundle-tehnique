@@ -4,6 +4,9 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      htmlAttrs: {
+        lang: "en",
+      },
       title: "Nuxt Bundling",
       link: [
         // { rel: "dns-prefetch", href: `http://localhost:3000/` },
