@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useMouse } from "@vueuse/core";
 useSeoMeta({
   title: "Home Page",
   description:
@@ -19,8 +20,6 @@ const { t } = useI18n({
   },
 });
 
-import { useMouse } from "@vueuse/core";
-
 const { x, y, sourceType } = useMouse();
 </script>
 
@@ -28,7 +27,7 @@ const { x, y, sourceType } = useMouse();
   <div>
     <h1>Hello nuxt!</h1>
     <h2>Do you even bundle, bro?</h2>
-    <hr>
+    <hr />
     <div>
       <h3>i18n</h3>
       {{ t("test") }} <br />
@@ -40,12 +39,12 @@ const { x, y, sourceType } = useMouse();
       {{ y }}px <br />
       {{ sourceType }}
     </div>
-    <hr>
+    <hr />
     <div>
       <h3>nuxt-img</h3>
       <nuxt-img src="/imgs/test.jpg" />
     </div>
-    <hr>
+    <hr />
     <h3>entry.*.js</h3>
     <ol>
       <li>
@@ -59,6 +58,7 @@ const { x, y, sourceType } = useMouse();
       <li>nuxt supabase: <strong>328.62</strong> - 100</li>
       <li>vueuse: <strong>328.75</strong> - 100</li>
       <li>nuxt-img: <strong>328.78</strong> - 100</li>
+      <li>add pages + components + composables <strong>504.41</strong> - </li>
     </ol>
   </div>
 </template>
