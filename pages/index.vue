@@ -12,7 +12,12 @@ useSeoMeta({
     "Home Page - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatum saepe beatae sequi sed excepturi temporibus reiciendis unde veritatis veniam?",
 });
 
-const { t } = useI18n({});
+const { t } = useI18n({
+  useScope: "global",
+  messages: {
+    en: { test: "test123" },
+  },
+});
 
 const logoText = useLogoFXORO();
 const footerPercent = useFooterPercent();
@@ -22,10 +27,11 @@ const footerPercent = useFooterPercent();
   <div>
     <h1>Hello nuxt!</h1>
     <h2>Do you even bundle, bro?</h2>
-    {{ t("navigation.home") }} <br />
+    {{ t("test") }} <br />
     <h3>entry.*.js</h3>
     <ol>
-      <li>nuxt i18n + 15 langs and text: <strong>219.02 kb</strong></li>
+      <li>nuxt i18n + 15 langs and content: <strong>219.02 kb</strong> - 81</li>
+      <li>nuxt i18n + 15 langs no content: <strong>215.02 kb</strong> - </li>
     </ol>
   </div>
 </template>
