@@ -146,4 +146,7 @@ export default defineNuxtConfig({
   supabase: {
     redirect: false,
   },
+  image: {
+    provider: "netlify",
+  },
 });

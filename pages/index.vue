@@ -58,7 +58,7 @@ const { x, y, sourceType } = useMouse();
       </li>
       <li>nuxt supabase: <strong>328.62</strong> - 100</li>
       <li>vueuse: <strong>328.75</strong> - 100</li>
-      <li>nuxt-img: <strong>328.99</strong> - 100</li>
+      <li>nuxt-img: <strong>328.78</strong> - 100</li>
     </ol>
   </div>
 </template>
