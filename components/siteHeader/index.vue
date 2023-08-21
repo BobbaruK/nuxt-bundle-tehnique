@@ -260,7 +260,7 @@ watchEffect(() => {
               />
             </NuxtLink>
             <!-- TODO put this on a service worker? -->
-            <ClientOnly>
+            <!-- <ClientOnly>
               <template #fallback>
                 <div class="fallbackMsg">
                   <Loader :loader="'oval'" />
@@ -268,14 +268,14 @@ watchEffect(() => {
                 </div>
               </template>
               <div class="siteHeader__userActions" v-if="!isMobile">
-                <LazyLangSwitcher id="HeaderLangSwitcher" />
+                <LangSwitcher id="HeaderLangSwitcher" />
                 <div class="siteHeader__divider"></div>
-                <LazySiteHeaderPhoneNo />
+                <SiteHeaderPhoneNo />
                 <div class="siteHeader__divider"></div>
-                <LazySiteLogin />
+                <SiteLogin />
               </div>
-              <LazyMenuBurger v-else />
-            </ClientOnly>
+              <MenuBurger v-else />
+            </ClientOnly> -->
           </div>
         </div>
       </div>

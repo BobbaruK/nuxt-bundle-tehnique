@@ -66,7 +66,7 @@ const { x, y, sourceType } = useMouse();
       <li>remove pages <strong>329.41</strong> - 100</li>
       <li>add components <strong>331.74</strong> - 100</li>
       <li>use components + add css <strong>331.94</strong> - 85 :((((</li>
-      <li>lazyload header components? <strong>331.94</strong> - 85 :((((</li>
+      <li>lazyload header components? <strong>331.94</strong> - 79 :((((</li>
     </ol>
   </div>
 </template>
