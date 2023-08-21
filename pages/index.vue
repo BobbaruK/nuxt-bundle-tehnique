@@ -21,6 +21,9 @@ const { t } = useI18n({
 });
 
 const { x, y, sourceType } = useMouse();
+
+// TODO: incearca sa chunk 
+// ~52% din entry bundle nici macar nu e folosit cand e incarcat
 </script>
 
 <template>
@@ -45,7 +48,7 @@ const { x, y, sourceType } = useMouse();
       <nuxt-img src="/imgs/test.jpg" width="500" height="300" />
     </div>
     <hr />
-    <h3>entry.*.js</h3>
+    <h3>entry.*.js</h3> 
     <ol>
       <li>
         nuxt i18n + 15 langs and content(lang dir): <strong>219.02 kb</strong> -
@@ -60,7 +63,8 @@ const { x, y, sourceType } = useMouse();
       <li>nuxt-img: <strong>328.78</strong> - 100</li>
       <li>add pages + components + composables <strong>504.41</strong> - 79 :((((</li>
       <li>remove components + composables <strong>459.81</strong> - 87 :((((</li>
-      <li>remove pages <strong>329.41</strong> - 95?</li>
+      <li>remove pages <strong>329.41</strong> - 100</li>
+      <li>add components <strong>331.74</strong> - </li>
     </ol>
   </div>
 </template>
