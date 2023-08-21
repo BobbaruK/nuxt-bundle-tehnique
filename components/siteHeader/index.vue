@@ -250,14 +250,14 @@ watchEffect(() => {
         <div class="row">
           <div class="col-12 siteHeader__topHeaderInner">
             <NuxtLink :to="localePath('/')" aria-label="Home">
-              <nuxt-picture
+              <!-- <nuxt-picture
                 format="avif,webp"
                 src="/images/logos/logo-white.png"
                 class="siteHeader__logo"
                 alt="Logo"
                 width="137"
                 height="55"
-              />
+              /> -->
             </NuxtLink>
             <!-- TODO put this on a service worker? -->
             <!-- <ClientOnly>
@@ -280,7 +280,7 @@ watchEffect(() => {
         </div>
       </div>
     </div>
-    <MenuNavigation :menu-items="menuItems" />
+    <!-- <MenuNavigation :menu-items="menuItems" /> -->
   </header>
 </template>
 

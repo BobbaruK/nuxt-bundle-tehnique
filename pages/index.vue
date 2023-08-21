@@ -67,6 +67,8 @@ const { x, y, sourceType } = useMouse();
       <li>add components <strong>331.74</strong> - 100</li>
       <li>use components + add css <strong>331.94</strong> - 85 :((((</li>
       <li>lazyload header components? <strong>331.94</strong> - 79 :((((</li>
+      <li>remove LangSwitcher, SiteHeaderPhoneNo, SiteLogin & MenuBurger <strong></strong></li>
+      <li>remove navigation leave header <strong>332.25</strong> - </li>
     </ol>
   </div>
 </template>
