@@ -3,11 +3,11 @@
 <template>
   <div>
     <NuxtLoadingIndicator :height="5" :color="'hsl(42, 100%, 50%)'" :throttle="0" />
-    <!-- <SiteHeader /> -->
+    <SiteHeader />
     <main id="mainContent">
       <slot />
     </main>
-    <!-- <LazySiteFooter /> -->
+    <LazySiteFooter />
   </div>
 </template>
 
