@@ -268,13 +268,13 @@ watchEffect(() => {
                 </div>
               </template>
               <div class="siteHeader__userActions" v-if="!isMobile">
-                <LangSwitcher id="HeaderLangSwitcher" />
+                <LazyLangSwitcher id="HeaderLangSwitcher" />
                 <div class="siteHeader__divider"></div>
-                <SiteHeaderPhoneNo />
+                <LazySiteHeaderPhoneNo />
                 <div class="siteHeader__divider"></div>
-                <SiteLogin />
+                <LazySiteLogin />
               </div>
-              <MenuBurger v-else />
+              <LazyMenuBurger v-else />
             </ClientOnly>
           </div>
         </div>
